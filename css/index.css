@@ -1,0 +1,1058 @@
+/*Modo PC*/
+@media (min-width: 1001px) {
+    /*Cuerpo del html*/
+    body{
+        background-color: black;
+        color: white;
+        font-family: 'Comfortaa', cursive;
+    }
+        /*Scrollbar dentro del cuerpo*/
+        body::-webkit-scrollbar{
+            display: none;
+        }
+    /*Container-fluid*/
+    .container-fluid{
+        padding: 0;
+    }
+    /*Desactivar div para movil*/
+    .mobile{
+        display: none;
+    }
+    /*Splashscreen*/
+    .splashscreen{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 1080px;
+        background-image: url(../img/Splashscreen.png);
+        background-position: 50%;
+    }
+        .splashscreen-title_container{
+            margin: 0;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 1000px;
+            height: 100px;
+            border-bottom: 5px solid white;
+        }
+            .splashscreen-title_container-title{
+                margin: 0;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                text-align: center;
+                transform: translate(-50%, -50%);
+                text-transform: uppercase;
+                font-weight: bolder;
+                font-size: 110px;
+                font-style: italic;
+            }
+        .splashscreen-subtitle_container{
+            margin: 0;
+            position: relative;
+            top: 34.8%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 1000px;
+            height: 25px;
+        }
+            .splashscreen-subtitle_container-subtitle{
+                margin: 0;
+                position: relative;
+                top: 40%;
+                left: 50%;
+                text-align: center;
+                transform: translate(-50%, -50%);
+                font-size: 30px;
+                font-style: italic;
+            }
+    /*Div 1 / Top 5 Manga*/
+    .top{
+        margin: auto;
+        padding: auto;
+        width: 1000px;
+        height: 480px;
+    }
+        .top-header{
+            margin: auto;
+            top: 20px;
+            position: relative;
+            width: 960px;
+            height: 60px;
+        }
+            .top-header-name{
+                margin: auto;
+                padding-left: 20px;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: bolder;
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+        .top-container{
+            margin: auto;
+            top: 40px;
+            position: relative;
+            width: 960px;
+            height: 360px;
+            display: flex;
+            flex-direction: row;
+        }
+        .top-container-card{
+            margin: auto;
+            position: relative;
+            width: 172px;
+            height: 320px;
+            background-color: #151515;
+            border-radius: 20px;
+        }
+            .top-container-card-img_container{
+                margin: auto;
+                position: relative;
+                width: 172px;
+                height: 200px;
+                background-size: 100%;
+                border-radius: 20px;
+            }
+                .top-container-card-img_container-img{
+                    margin: auto;
+                    position: relative;
+                    width: 172px;
+                    height: 200px;
+                    border-radius: 20px;
+                }
+            .top-container-card-name_container{
+                margin: auto;
+                top: 5px;
+                position: relative;
+                width: 162px;
+                height: 30px;
+            }
+                .top-container-card-name_container-name{
+                    margin: auto;
+                    padding-left: 10px;
+                    position: relative;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    font-weight: bolder;
+                    font-size: 20px;
+                }
+            .top-container-card-tag_container{
+                margin: auto;
+                top: 5px;
+                position: relative;
+                width: 162px;
+                height: 75px;
+                display: flex;
+                flex-direction: column;
+            }
+                .top-container-card-tag_container-tag{
+                    margin-left: auto;
+                    margin-right: 10px;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    position: relative;
+                    width: fit-content;
+                    height: 20px;
+                    border-radius: 20px;
+                }
+                    .top-container-card-tag_container-tag-tag_content{
+                        margin: auto;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        text-align: center;
+                        position: relative;
+                        font-weight: bolder;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                        color: black;
+                    }
+    /*Div 2 / My Recommendations*/
+    .recom{
+        margin: auto;
+        margin-top: 50px;
+        padding-top: none;
+        width: 1000px;
+        height: 800px;
+    }
+        .recom-header{
+            margin: auto;
+            top: 20px;
+            position: relative;
+            width: 960px;
+            height: 60px;
+        }
+            .recom-header-name{
+                margin: auto;
+                padding-left: 20px;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: bolder;
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+        .recom-container{
+            margin: auto;
+            top: 40px;
+            position: relative;
+            width: 960px;
+            height: 680px;
+            display: flex;
+            flex-direction: column;
+        }
+            .recom-container-card{
+                margin: auto;
+                position: relative;
+                width: 920px;
+                height: 200px;
+                background-color: #151515;
+                border-radius: 20px;
+            }
+                .recom-container-card_right-img_container{
+                    margin-left: 750px;
+                    position: relative;
+                    width: 172px;
+                    height: 200px;
+                    background-size: 100%;
+                    border-radius: 20px;
+                }
+                    .recom-container-card_right-img_container-img{
+                        margin: auto;
+                        position: relative;
+                        width: 172px;
+                        height: 200px;
+                        border-radius: 20px;
+                    }
+                .recom-container-card_right-manga_container{
+                    margin-left: 30px;
+                    margin-right: auto;
+                    position: relative;
+                    width: 700px;
+                    height: 200px;
+                    background-size: 100%;
+                    float: left;
+                    display: flex;
+                    flex-direction: column;
+                }
+                    .recom-container-card_right-manga_container-name_container{
+                        margin: auto;
+                        padding: auto;
+                        position: relative;
+                        width: 700px;
+                        height: 30px;
+                        background-size: 100%;
+                        border-radius: 20px;
+                    }
+                        .recom-container-card_right-manga_container-name_container-name{
+                            margin: auto;
+                            padding-right: 7px;
+                            text-align: right;
+                            position: relative;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            font-weight: bolder;
+                            font-size: 20px;
+                        }
+                    .recom-container-card_right-manga_container-desc_container{
+                        margin: auto;
+                        padding: auto;
+                        position: relative;
+                        width: 700px;
+                        height: 30px;
+                        background-size: 100%;
+                        border-radius: 20px;
+                    }
+                        .recom-container-card_right-manga_container-desc_container-desc{
+                            margin: auto;
+                            padding-right: 7px;
+                            position: relative;
+                            text-align: right;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            font-size: 11px;
+                        }
+                    .recom-container-card_right-manga_container-tag_group{
+                        margin: auto;
+                        padding: auto;
+                        position: relative;
+                        width: 700px;
+                        height: 30px;
+                        background-size: 100%;
+                        border-radius: 20px;
+                        display: flex;
+                        flex-direction: row-reverse;
+                    }
+                        .recom-container-card_right-manga_container-tag_group-tag{
+                            margin-left: 2px;
+                            margin-right: 7px;
+                            margin-top: auto;
+                            margin-bottom: auto;
+                            position: relative;
+                            width: fit-content;
+                            height: 20px;
+                            border-radius: 20px;
+                        }
+                            .recom-container-card_right-manga_container-tag_group-tag-tag_content{
+                                margin: 0;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                text-align: center;
+                                position: relative;
+                                font-weight: bolder;
+                                left: 50%;
+                                top: 50%;
+                                transform: translate(-50%, -50%);
+                                color: black;
+                            }
+                .recom-container-card_left-img_container{
+                    margin: 0;
+                    position: relative;
+                    width: 172px;
+                    height: 200px;
+                    background-size: 100%;
+                    border-radius: 20px;
+                    float: left;
+                }
+                    .recom-container-card_left-img_container-img{
+                        margin: auto;
+                        position: relative;
+                        width: 172px;
+                        height: 200px;
+                        border-radius: 20px;
+                    }
+                .recom-container-card_left-manga_container{
+                    margin-left: 192px;
+                    margin-right: auto;
+                    position: relative;
+                    width: 700px;
+                    height: 200px;
+                    background-size: 100%;
+                    display: flex;
+                    flex-direction: column;
+                }
+                    .recom-container-card_left-manga_container-name_container{
+                        margin: auto;
+                        padding: auto;
+                        position: relative;
+                        width: 700px;
+                        height: 30px;
+                        background-size: 100%;
+                        border-radius: 20px;
+                    }
+                        .recom-container-card_left-manga_container-name_container-name{
+                            margin: auto;
+                            padding-left: 7px;
+                            position: relative;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            font-weight: bolder;
+                            font-size: 20px;
+                        }
+                    .recom-container-card_left-manga_container-desc_container{
+                        margin: auto;
+                        padding: auto;
+                        position: relative;
+                        width: 700px;
+                        height: 30px;
+                        background-size: 100%;
+                        border-radius: 20px;
+                    }
+                        .recom-container-card_left-manga_container-desc_container-desc{
+                            margin: auto;
+                            padding-left: 7px;
+                            position: relative;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            font-size: 11px;
+                        }
+                    .recom-container-card_left-manga_container-tag_group{
+                        margin: auto;
+                        padding: auto;
+                        position: relative;
+                        width: 700px;
+                        height: 30px;
+                        background-size: 100%;
+                        border-radius: 20px;
+                        display: flex;
+                        flex-direction: row;
+                    }
+                        .recom-container-card_left-manga_container-tag_group-tag{
+                            margin-left: 7px;
+                            margin-right: 2px;
+                            margin-top: auto;
+                            margin-bottom: auto;
+                            position: relative;
+                            width: fit-content;
+                            height: 20px;
+                            border-radius: 20px;
+                        }
+                            .recom-container-card_left-manga_container-tag_group-tag-tag_content{
+                                margin: 0;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                text-align: center;
+                                position: relative;
+                                font-weight: bolder;
+                                left: 50%;
+                                top: 50%;
+                                transform: translate(-50%, -50%);
+                                color: black;
+                            }
+    /*Div 3 / Mangakas*/  
+    .mangakas{
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 1000px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+        .mangakas-header{
+            margin: auto;
+            width: 960px;
+            height: 60px;
+        }
+            .mangakas-header-name{
+                margin: auto;
+                padding-left: 20px;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: bolder;
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+        .mangakas-container{
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            width: 960px;
+            height: 280px;
+            display: flex;
+            flex-direction: row;
+        }
+            .mangakas-container-card{
+                margin: auto;
+                width: 172px;
+                height: 240px;
+                background-color: #151515;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+            }
+                .mangakas-container-card-img_container{
+                    margin: auto;
+                    position: relative;
+                    width: 172px;
+                    height: 200px;
+                    background-size: 100%;
+                    border-radius: 20px;
+                }
+                    .mangakas-container-card-img_container-img{
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                        width: 172px;
+                        height: 200px;
+                        border-radius: 20px;
+                    }
+                .mangakas-container-card-name_container{
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 162px;
+                    height: 30px;
+                    border-radius: 20px;
+                }
+                    .mangakas-container-card-name_container-name{
+                        margin: auto;
+                        position: relative;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        font-weight: bolder;
+                        text-align: center;
+                        font-size: 100%;
+                    }
+
+    /*Div 1 Imgs / Fades*/
+    #top-container-card-img_container-fade_berserk{
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 172px;
+        height: 200px;
+        background-size: 100%;
+        border-radius: 20px;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(235,182,45,0.5));
+        opacity: 0;
+        z-index: 10;
+    }
+    #top-container-card-img_container-fade_steel_ball_run{
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 172px;
+        height: 200px;
+        background-size: 100%;
+        border-radius: 20px;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(155,227,65,0.5));
+        opacity: 0;
+        z-index: 10;
+    }
+    #top-container-card-img_container-fade_vagabond{
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 172px;
+        height: 200px;
+        background-size: 100%;
+        border-radius: 20px;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(290,229,241,0.5));
+        opacity: 0;
+        z-index: 10;
+    }
+    #top-container-card-img_container-fade_one_piece{
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 172px;
+        height: 200px;
+        background-size: 100%;
+        border-radius: 20px;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(239,93,93,0.5));
+        opacity: 0;
+        z-index: 10;
+    }
+    #top-container-card-img_container-fade_monster{
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 172px;
+        height: 200px;
+        background-size: 100%;
+        border-radius: 20px;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(52,128,234,0.5));
+        opacity: 0;
+        z-index: 10;
+    }
+    #recom-container-card_left-img_container-fade_aobuta{
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 172px;
+        height: 200px;
+        background-size: 100%;
+        border-radius: 20px;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgb(45,85,153,0.5));
+        opacity: 0;
+        z-index: 10;
+    }
+    #recom-container-card_left-img_container-fade_nettagyo{
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 172px;
+        height: 200px;
+        background-size: 100%;
+        border-radius: 20px;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(100,200,242,0.5));
+        opacity: 0;
+        z-index: 10;
+    }
+    #recom-container-card_right-img_container-fade_newgame{
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 172px;
+        height: 200px;
+        background-size: 100%;
+        border-radius: 20px;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(207,208,236,0.5));
+        opacity: 0;
+        z-index: 10;
+    }
+    #mangakas-container-card-img_container-fade{
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 172px;
+        height: 200px;
+        background-size: 100%;
+        border-radius: 20px;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(255,255,255,0.5));
+        opacity: 0;
+        z-index: 10;
+    }
+    /*Div 1 Imgs / Hovers*/
+    #top-container-card-img_container-fade_berserk:hover{
+        animation: anims 1s forwards;
+    }
+    #top-container-card-img_container-fade_steel_ball_run:hover{
+        animation: anims 1s forwards;
+    }
+    #top-container-card-img_container-fade_vagabond:hover{
+        animation: anims 1s forwards;
+    }
+    #top-container-card-img_container-fade_one_piece:hover{
+        animation: anims 1s forwards;
+    }
+    #top-container-card-img_container-fade_monster:hover{
+        animation: anims 1s forwards;
+    }
+    #recom-container-card_left-img_container-fade_aobuta:hover{
+        animation: anims 1s forwards;
+    }
+    #recom-container-card_left-img_container-fade_nettagyo:hover{
+        animation: anims 1s forwards;
+    }
+    #recom-container-card_right-img_container-fade_newgame:hover{
+        animation: anims 1s forwards;
+    }
+    #mangakas-container-card-img_container-fade:hover{
+        animation: anims 1s forwards;
+    }
+    /*Div 1 Imgs / Anims*/
+    @keyframes anims {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+}
+
+/*Modo dispositivo movil*/
+@media (max-width: 1000px) {
+    /*Cuerpo del html*/
+    body{
+        background-color: black;
+        color: white;
+        font-family: 'Comfortaa', cursive;
+        width: 1000px;
+        height: 100%;
+    }
+        /*Scrollbar dentro del cuerpo*/
+        body::-webkit-scrollbar{
+            display: none;
+        }
+    /*Container-fluid*/
+    .container-fluid{
+        padding: 0;
+    }
+    /*Desactivar div para pc*/
+    .pc{
+        display: none;
+    }
+    /*Splashscreen*/
+    .splashscreen{
+        margin: auto;
+        width: 1000px;
+        height: 1080px;
+        background-image: url(../img/Splashscreen.png);
+        background-position: 50%;
+    }
+        .splashscreen-title_container{
+            margin: 0;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 800px;
+            height: 75px;
+            border-bottom: 5px solid white;
+        }
+            .splashscreen-title_container-title{
+                margin: 0;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                text-align: center;
+                transform: translate(-50%, -50%);
+                text-transform: uppercase;
+                font-weight: bolder;
+                font-size: 88px;
+                font-style: italic;
+            }
+        .splashscreen-subtitle_container{
+            margin: 0;
+            position: relative;
+            top: 38%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 800px;
+            height: 25px;
+        }
+            .splashscreen-subtitle_container-subtitle{
+                margin: 0;
+                position: relative;
+                top: 40%;
+                left: 50%;
+                text-align: center;
+                transform: translate(-50%, -50%);
+                font-size: 30px;
+                font-style: italic;
+            }
+    /*Div 1 / Top 5 Manga*/
+    .top{
+        margin: auto;
+        width: 800px;
+        height: 480px;
+        display: flex;
+        flex-direction: column;
+    }
+        .top-header{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            width: 760px;
+            height: 60px;
+        }
+            .top-header-name{
+                margin: auto;
+                padding-left: 20px;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: bolder;
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+        .top-container_slide{
+            margin-left: 20px;
+            margin-top: 20px;
+            width: 760px;
+            height: 360px;
+            display: flex;
+            flex-direction: row;
+        }
+            .top-container-card_slide{
+                margin-top: 20px;
+                width: 760px;
+                height: 320px;
+                border-radius: 20px;
+            }
+                .top-container-card_slide-card{
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    width: 720px;
+                    height: 320px;
+                    background-color: #151515;
+                    border-radius: 20px;
+                    display: flex;
+                    flex-direction: row;
+                }
+                    .top-container-card_slide-card-img_container{
+                        margin-right: 20px;
+                        width: 220px;
+                        height: 320px;
+                        border-radius: 20px;
+                        z-index: 10;
+                    }
+                        .top-container-card_slide-card-img_container-img{
+                            position: relative;
+                            width: 220px;
+                            height: 320px;
+                            border-radius: 20px;
+                            z-index: 10;
+                        }
+                    .top-container-card_slide-card-manga_container{
+                        width: 480px;
+                        height: 320px;
+                        border-radius: 20px;
+                        z-index: 10;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                        .top-container-card_slide-card-manga_container-name_container{
+                            margin-top: 20px;
+                            width: 480px;
+                            height: 30px;
+                            border-radius: 20px;
+                            z-index: 10;
+                        }
+                            .top-container-card_slide-card-manga_container-name_container-name{
+                                margin: auto;
+                                padding-left: 10px;
+                                position: relative;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                text-transform: uppercase;
+                                font-weight: bolder;
+                                font-size: 20px;
+                            }
+                        .top-container-card_slide-card-manga_container-tag_container{
+                            margin-top: 10px;
+                            width: 480px;
+                            height: 30px;
+                            border-radius: 20px;
+                            z-index: 10;
+                            display: flex;
+                            flex-direction: row;
+                        }
+                            .top-container-card_slide-card-manga_container-tag_container-tag{
+                                margin-left: 7px;
+                                margin-right: 2px;
+                                margin-top: auto;
+                                margin-bottom: auto;
+                                position: relative;
+                                width: fit-content;
+                                height: 20px;
+                                border-radius: 20px;
+                            }
+                                .top-container-card_slide-card-manga_container-tag_container-tag-tag_content{
+                                    margin: 0;
+                                    padding-left: 10px;
+                                    padding-right: 10px;
+                                    text-align: center;
+                                    position: relative;
+                                    font-weight: bolder;
+                                    left: 50%;
+                                    top: 50%;
+                                    transform: translate(-50%, -50%);
+                                    color: black;
+                                }
+                        .top-container-card_slide-card-manga_container-desc_container{
+                            margin-top: 10px;
+                            width: 480px;
+                            height: 180px;
+                            border-radius: 20px;
+                            z-index: 10;
+                        }
+                            .top-container-card_slide-card-manga_container-desc_container-desc{
+                                margin: auto;
+                                margin-right: 20px;
+                                padding-left: 10px;
+                                position: relative;
+                                text-align: left;
+                                font-size: 11px;
+                            }
+    /*Div 2 / My Recommendations*/
+    .recom{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 800px;
+        height: 625px;
+        display: flex;
+        flex-direction: column;
+    }
+        .recom-header{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            width: 760px;
+            height: 60px;
+        }
+            .recom-header-name{
+                margin: auto;
+                padding-left: 20px;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: bolder;
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+        .recom-container{
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 760px;
+            height: 520px;
+            display: flex;
+            flex-direction: row;
+        }
+            .recom-container-card{
+                margin: auto;
+                position: relative;
+                width: 250px;
+                height: 475px;
+                background-color: #151515;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+            }
+                .recom-container-card-img_container{
+                    position: relative;
+                    width: 250px;
+                    height: 350px;
+                    border-radius: 20px;
+                }
+                    .recom-container-card-img_container-img{
+                        margin: auto;
+                        position: relative;
+                        width: 250px;
+                        height: 350px;
+                        border-radius: 20px;
+                    }
+                .recom-container-card-name_container{
+                    margin: auto;
+                    margin-top: 5px;
+                    width: 240px;
+                    height: 30px;
+                    border-radius: 20px;
+                    z-index: 10;
+                }
+                    .recom-container-card-name_container-name{
+                        margin: auto;
+                        padding-left: 10px;
+                        position: relative;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        font-weight: bolder;
+                        font-size: 20px;
+                        text-transform: uppercase;
+                    }
+                .recom-container-card-tag_container{
+                    margin: auto;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    width: 240px;
+                    height: 80px;
+                    border-radius: 20px;
+                    z-index: 10;
+                    display: flex;
+                    flex-direction: column;
+                }
+                    .recom-container-card-tag_container-tag{
+                        margin-left: auto;
+                        margin-right: 10px;
+                        margin-top: auto;
+                        margin-bottom: auto;
+                        position: relative;
+                        width: fit-content;
+                        height: 20px;
+                        border-radius: 20px;
+                    }
+                        .recom-container-card-tag_container-tag-tag_content{
+                            margin: 0;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            text-align: center;
+                            position: relative;
+                            font-weight: bolder;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                            color: black;
+                        }
+    .mangakas{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        width: 800px;
+        height: 365px;
+        display: flex;
+        flex-direction: column;
+    }
+        .mangakas-header{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            width: 760px;
+            height: 60px;
+        }
+            .mangakas-header-name{
+                margin: auto;
+                padding-left: 20px;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: bolder;
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+        .mangakas-container{
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 760px;
+            height: 260px;
+            display: flex;
+            flex-direction: row;
+        }
+            .mangakas-container-card{
+                margin: auto;
+                position: relative;
+                width: 150px;
+                height: 260px;
+                background-color: #151515;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+            }
+                .mangakas-container-card-img_container{
+                    position: relative;
+                    width: 150px;
+                    height: 220px;
+                    border-radius: 20px;
+                }
+                    .mangakas-container-card-img_container-img{
+                        margin: auto;
+                        position: relative;
+                        width: 150px;
+                        height: 220px;
+                        border-radius: 20px;
+                    }
+                .mangakas-container-card-name_container{
+                    margin: auto;
+                    margin-top: 5px;
+                    width: 150px;
+                    height: 30px;
+                    border-radius: 20px;
+                    z-index: 10;
+                }
+                    .mangakas-container-card-name_container-name{
+                        margin: auto;
+                        position: relative;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        font-weight: bolder;
+                        text-align: center;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                    }
+}
